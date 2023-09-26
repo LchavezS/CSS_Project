@@ -1,0 +1,196 @@
+#title {
+    color: tomato;
+}
+
+p.text {
+    color: slateblue;
+}
+
+p.text {
+    color: mediumseagreen;
+}
+
+div p {
+    color: aquamarine;
+}
+
+div h2, div h3 {
+    color: brown;
+}
+
+*{
+    font-size: 24px;
+    /* color: black; */
+}
+
+
+/*This is comment for CSS files*/
+/*
+This is comment with 
+multiples lines
+*/
+
+/*
+.color {
+    color: #ff0000;
+}
+==============
+.color {
+    color: rgb(0, 255, 255);
+}
+*/
+.color {
+    border: 5px red outset;
+    /*Diffent styles for borders:
+    dotted
+    dashed 
+    solid 
+    double
+    groove 
+    ridge 
+    inset
+    outsed 
+    non
+    hidden 
+    */
+}
+
+.color {
+    border-style: solid;
+    border-color: blue;
+    border-radius: 10px;
+    border-width: 2rem;
+}
+/*
+Check official documentation 
+    Medidas Absolutas: 1px, 1in, 1pc, 1cm, 1mm
+    Medidas Relativas: 2em, 2rem
+*/
+
+#background {
+    background-color: rgba(255, 0, 0); /*rgba is for transparency*/
+    /* opacity: 0.3; */
+    height: 200px;
+    /* background-image: url('./imgs/coffe.jpeg'); */
+    /* height: 200px; */
+    
+    /* background-repeat: repeat-y;
+    background-position: center top; */
+    background: #f00 url(./imgs/coffe.jpeg) repeat-y center bottom / 100px 100px;
+    /* background-size: 100px 100px; */
+}
+
+.margin {
+    background-color: chocolate;
+    margin: 15px;
+    padding: 30px 15px 5px;
+    border: solid 1px black;
+    height: 100px;
+    width: 50px;
+    overflow: scroll;
+    outline: 1px solid red;
+}
+
+.text {
+    font-family: 'Roboto', sans-serif;
+    text-align: justify;
+    text-decoration: overline;
+    text-shadow: 3px 5px 5px blue;
+}
+/*Creating links's states selectos, imporatnt to code these states by the below order */
+
+a:link {
+    color: blueviolet;
+}
+a:visited {
+    color: gray;
+}
+a:hover {
+    color: yellow;
+}
+a:active {
+    color: red;
+}
+
+ul {
+    background-color: cyan;
+    list-style-type: circle;
+    /* padding-left: 0; */
+    /* list-style-position: inside; */
+
+}
+table {
+    width:  100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    border: solid 1px #eee;
+    padding: 5px;
+
+}
+th {
+    background-color: tomato;
+    color: white;
+    text-align: left;
+}
+
+tr:nth-child(even) {
+    background-color: #eee;
+}
+
+tr:hover {
+    background-color: #aaa;
+    cursor: pointer;
+}
+
+/*Using display*/
+span {
+    display: block;
+    /* display: none; */
+    /* visibility: hidden; */
+    max-width: 300px;
+    background-color: red;
+
+}
+.inline {
+    display: inline;
+}
+
+#position {
+    position: sticky;
+    left: 20px;
+    top: 25px;
+}
+
+.left {
+    float: left;
+    width: 200px;
+    height: 200px;
+}
+.container {
+    height: 200px;
+}
+.right {
+    float: right;
+} 
+.column {
+    
+    margin: 0;
+    padding: 10px 0;
+    width: 33%;
+
+}
+.inline-block {
+    display: inline-block;
+    height: 55px;
+    background-color: red;
+}
+.center {
+    padding: 50px 0;
+    text-align: center;
+    width: 200px;
+    margin: 0 auto;
+    background-color: aqua;
+}
+
